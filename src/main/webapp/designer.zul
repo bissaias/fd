@@ -1,0 +1,132 @@
+<zk xmlns="http://www.zkoss.org/2005/zul"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.zkoss.org/2005/zul http://www.zkoss.org/2005/zul/zul.xsd">
+
+    <style>
+        .focused {border: 1px solid blue}
+    </style>
+
+    <window vflex="true" border="none" apply="com.web4thejob.designer.FormDesigner" ctrlKeys="^1">
+        <caption>Web4thejob Form Designer (Alpha Version)</caption>
+        <borderlayout width="100%">
+            <north height="50px" border="normal">
+
+            </north>
+            <west width="120px" collapsible="true" splittable="true" border="none">
+                <tabbox vflex="true" mold="accordion">
+                    <tabs>
+                        <tab label="Input"/>
+                        <tab label="Containers"/>
+                        <tab label="Data"/>
+                    </tabs>
+                    <tabpanels>
+                        <tabpanel>
+                            <vlayout spacing="10px">
+                                <label value="Label">
+                                    <custom-attributes dropclass="org.zkoss.zul.Label"/>
+                                    <custom-attributes defaults="value=New Label" composite="map"/>
+                                    <custom-attributes properties="label"/>
+                                </label>
+                                <label value="Textbox">
+                                    <custom-attributes dropclass="org.zkoss.zul.Textbox"/>
+                                    <custom-attributes properties="textbox"/>
+                                </label>
+                                <label value="Combobox">
+                                    <custom-attributes dropclass="org.zkoss.zul.Combobox"/>
+                                </label>
+                                <label value="Checkbox">
+                                    <custom-attributes dropclass="org.zkoss.zul.Checkbox"/>
+                                    <custom-attributes defaults="value='Checkbox'" composite="map"/>
+                                </label>
+                                <separator bar="true"/>
+                                <label value="Tabbox">
+                                    <custom-attributes dropclass="org.zkoss.zul.Tabbox"/>
+                                    <custom-attributes defaults="hflex=true,vflex=true" composite="map"/>
+                                    <custom-attributes properties="tabbox"/>
+                                </label>
+                                <label value="Tab">
+                                    <custom-attributes dropclass="org.zkoss.zul.Tab"/>
+                                    <!--<custom-attributes defaults="label=Tab" composite="map"/>-->
+                                    <custom-attributes properties="tab"/>
+                                </label>
+                                <label value="Tabpanel">
+                                    <custom-attributes dropclass="org.zkoss.zul.Tabpanel"/>
+                                    <custom-attributes properties="tabpanel"/>
+                                </label>
+
+                                <separator bar="true"/>
+                                <label value="Hbox">
+                                    <custom-attributes dropclass="org.zkoss.zul.Hbox"/>
+                                    <custom-attributes defaults="hflex=true,height=80px" composite="map"/>
+                                    <custom-attributes properties="box"/>
+                                </label>
+                                <label value="Vbox">
+                                    <custom-attributes dropclass="org.zkoss.zul.Vbox"/>
+                                    <custom-attributes defaults="vflex=true,width=80px" composite="map"/>
+                                    <custom-attributes properties="box"/>
+                                </label>
+
+                            </vlayout>
+                        </tabpanel>
+                        <tabpanel>
+                            <vlayout spacing="10px">
+                                <label value="Hbox">
+                                    <custom-attributes dropclass="org.zkoss.zul.Hbox"/>
+                                    <custom-attributes defaults="hflex=true,height=80px" composite="map"/>
+                                </label>
+                                <label value="Vbox">
+                                    <custom-attributes dropclass="org.zkoss.zul.Vbox"/>
+                                    <custom-attributes defaults="vflex=true,width=80px" composite="map"/>
+                                </label>
+                            </vlayout>
+                        </tabpanel>
+                        <tabpanel>
+                        </tabpanel>
+                    </tabpanels>
+                </tabbox>
+            </west>
+            <center border="none">
+                <tabbox vflex="true" orient="bottom">
+                    <tabs>
+                        <tab label="Canvas"/>
+                        <tab label="Code"/>
+                    </tabs>
+                    <tabpanels>
+                        <tabpanel>
+                            <panel id="canvas" border="normal" vflex="true" droppable="true">
+                                <panelchildren style="overflow:auto">
+
+                                </panelchildren>
+                            </panel>
+                        </tabpanel>
+                        <tabpanel>
+                            <panel border="normal" vflex="true">
+                                <panelchildren>
+
+                                </panelchildren>
+                            </panel>
+                        </tabpanel>
+                    </tabpanels>
+                </tabbox>
+            </center>
+            <east width="20%" collapsible="true" splittable="true" border="none">
+                <vlayout vflex="true" apply="com.web4thejob.designer.PropertyEditor">
+                    <bandbox id="selected" hflex="true" readonly="true">
+                        <bandpopup></bandpopup>
+                    </bandbox>
+                    <tabbox vflex="true" hflex="true">
+                        <tabs>
+                            <tab label="Properties"/>
+                            <tab label="Events"/>
+                        </tabs>
+                        <tabpanels>
+                            <tabpanel id="properties" style="overflow:auto"/>
+                            <tabpanel id="events" style="overflow:auto"/>
+                        </tabpanels>
+                    </tabbox>
+                </vlayout>
+
+            </east>
+        </borderlayout>
+    </window>
+</zk>

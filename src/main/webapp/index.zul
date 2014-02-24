@@ -1,0 +1,29 @@
+<zk xmlns="http://www.zkoss.org/2005/zul"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.zkoss.org/2005/zul http://www.zkoss.org/2005/zul/zul.xsd">
+    <window vflex="true" border="none">
+        <tabbox vflex="true">
+            <tabs>
+                <tab label="Test"/>
+            </tabs>
+            <tabpanels>
+                <tabpanel>
+                    <toolbar>
+                        <combobutton id="mycb" label="My" mold="toolbar" disabled="true">
+
+                            <menupopup>
+                                <menuitem label="123"/>
+                            </menupopup>
+
+                        </combobutton>
+                        <toolbarbutton id="myph" label="Placeholder" disabled="true"/>
+
+                        <toolbarbutton label="Toggle Status" onClick='mycb.setDisabled(!mycb.isDisabled());myph.setDisabled(mycb.isDisabled());'/>
+                        <toolbarbutton label="Read Status"
+                                       onClick='Clients.alert("Disabled: " + mycb.isDisabled().toString())'/>
+                    </toolbar>
+                </tabpanel>
+            </tabpanels>
+        </tabbox>
+    </window>
+</zk>
