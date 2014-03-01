@@ -1,3 +1,4 @@
+<?link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css"?>
 <zk xmlns="http://www.zkoss.org/2005/zul"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.zkoss.org/2005/zul http://www.zkoss.org/2005/zul/zul.xsd">
@@ -9,8 +10,27 @@
     <window vflex="true" border="none" apply="com.web4thejob.designer.FormDesignerController" ctrlKeys="^1">
         <caption>Web4thejob Form Designer (Alpha Version)</caption>
         <borderlayout width="100%">
-            <north height="50px" border="normal">
-
+            <north border="normal" splittable="true" collapsible="true">
+                <tabbox hflex="true">
+                    <tabs>
+                        <tab label="Input"/>
+                        <tab label="Data"/>
+                    </tabs>
+                    <tabpanels>
+                        <tabpanel>
+                            <toolbar>
+                                <toolbarbutton label="textbox" mode="toggle" onClick="self.setChecked(!self.checked)"/>
+                                <toolbarbutton label="combobox" mode="toggle" onClick="self.setChecked(!self.checked)"/>
+                            </toolbar>
+                        </tabpanel>
+                        <tabpanel>
+                            <toolbar>
+                                <toolbarbutton label="textbox" mode="toggle" onClick="self.setChecked(!self.checked)"/>
+                                <toolbarbutton label="combobox" mode="toggle" onClick="self.setChecked(!self.checked)"/>
+                            </toolbar>
+                        </tabpanel>
+                    </tabpanels>
+                </tabbox>
             </north>
             <west width="120px" collapsible="true" splittable="true" border="none">
                 <tabbox vflex="true" mold="accordion">
@@ -22,11 +42,11 @@
                     <tabpanels>
                         <tabpanel>
                             <vlayout spacing="10px">
-                                <label value="Label">
+                                <toolbarbutton label="Label" mode="toggle" onClick="self.setChecked(!self.checked)" hflex="true" style="text-align:center">
                                     <custom-attributes dropclass="org.zkoss.zul.Label"/>
                                     <custom-attributes defaults="value=New Label" composite="map"/>
                                     <custom-attributes properties="label"/>
-                                </label>
+                                </toolbarbutton>
                                 <label value="Textbox">
                                     <custom-attributes dropclass="org.zkoss.zul.Textbox"/>
                                     <custom-attributes properties="textbox"/>
@@ -48,10 +68,6 @@
                                     <custom-attributes dropclass="org.zkoss.zul.Tab"/>
                                     <!--<custom-attributes defaults="label=Tab" composite="map"/>-->
                                     <custom-attributes properties="tab"/>
-                                </label>
-                                <label value="Tabpanel">
-                                    <custom-attributes dropclass="org.zkoss.zul.Tabpanel"/>
-                                    <custom-attributes properties="tabpanel"/>
                                 </label>
 
                                 <separator bar="true"/>
@@ -86,11 +102,11 @@
                 </tabbox>
             </west>
             <center border="none">
-                <tabbox vflex="true" >
+                <tabbox vflex="true">
                     <tabs>
-                        <tab label="Canvas"/>
-                        <tab label="Outline"/>
-                        <tab label="Code"/>
+                        <tab label="1. Canvas"/>
+                        <tab label="2. Outline"/>
+                        <tab label="3. Code"/>
                     </tabs>
                     <tabpanels>
                         <tabpanel>
@@ -139,4 +155,7 @@
             </east>
         </borderlayout>
     </window>
+
+    <script type="text/javascript" src="/js/designer.js"/>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"/>
 </zk>

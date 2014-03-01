@@ -1,0 +1,161 @@
+<?link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css"?>
+<?link rel="stylesheet" href="/codemirror/lib/codemirror.css"?>
+<?link rel="stylesheet" href="/codemirror/addon/hint/show-hint.css"?>
+
+<?script type="text/javascript" src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"?>
+<?script type="text/javascript" src="/js/designer-beta.js"?>
+
+<?script  type="text/javascript" src="/codemirror/lib/codemirror.js"?>
+<?script  type="text/javascript" src="/codemirror/mode/xml/xml.js"?>
+<?script  type="text/javascript" src="/codemirror/addon/hint/show-hint.js"?>
+<?script  type="text/javascript" src="/codemirror/addon/hint/xml-hint.js"?>
+
+
+
+<zk xmlns="http://www.zkoss.org/2005/zul"
+    xmlns:c="client"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.zkoss.org/2005/zul http://www.zkoss.org/2005/zul/zul.xsd">
+
+
+    <style>
+        .selected {border: 1px solid blue !important;}
+        .hovered {border: 1px solid orange !important;}
+        .design {cursor: crosshair !important;}
+    </style>
+
+    <window id="appwindow" vflex="true" border="none" apply="com.web4thejob.designer.beta.FormDesignerController">
+        <custom-attributes templates="com/web4thejob/designer/beta"/>
+        <caption>Web4thejob Form Designer (Beta Version)</caption>
+        <toolbar id="mainToolbar">
+            <toolbarbutton id="mtNew" label="New"/>
+            <toolbarbutton id="mtTracking" label="Tracking" mode="toggle"/>
+            <toolbarbutton id="mtTooltip" label="Tooltips" mode="toggle"/>
+        </toolbar>
+        <borderlayout vflex="true">
+            <west width="120px" collapsible="true" splittable="true" border="none">
+                <tabbox id="components" vflex="true" mold="accordion">
+                    <tabs>
+                        <tab label="Input"/>
+                        <tab label="Containers"/>
+                        <tab label="Data"/>
+                    </tabs>
+                    <tabpanels>
+                        <tabpanel>
+                            <vlayout spacing="10px">
+                                <toolbarbutton label="Label" mode="toggle" hflex="true" style="text-align:center">
+                                    <custom-attributes template="label.zul"/>
+                                </toolbarbutton>
+                                <toolbarbutton label="Textbox" mode="toggle" hflex="true" style="text-align:center">
+                                    <custom-attributes template="textbox.zul"/>
+                                </toolbarbutton>
+                                <separator bar="true"/>
+                                <toolbarbutton label="Tabbox" mode="toggle" hflex="true" style="text-align:center">
+                                    <custom-attributes template="tabbox.zul"/>
+                                </toolbarbutton>
+                                <toolbarbutton label="Tab" mode="toggle" hflex="true" style="text-align:center">
+                                    <custom-attributes template="tab.zul"/>
+                                </toolbarbutton>
+                                <separator bar="true"/>
+                                <toolbarbutton label="Hbox" mode="toggle" hflex="true" style="text-align:center">
+                                    <custom-attributes template="hbox.zul"/>
+                                </toolbarbutton>
+                                <toolbarbutton label="Vbox" mode="toggle" hflex="true" style="text-align:center">
+                                    <custom-attributes template="vbox.zul"/>
+                                </toolbarbutton>
+                                <separator bar="true"/>
+                                <toolbarbutton label="Grid" mode="toggle" hflex="true" style="text-align:center">
+                                    <custom-attributes template="grid.zul"/>
+                                </toolbarbutton>
+                                <toolbarbutton label="Grid Row" mode="toggle" hflex="true" style="text-align:center">
+                                    <custom-attributes template="row.zul"/>
+                                </toolbarbutton>
+                            </vlayout>
+                        </tabpanel>
+                        <tabpanel>
+                        </tabpanel>
+                        <tabpanel>
+                        </tabpanel>
+                    </tabpanels>
+                </tabbox>
+            </west>
+            <center border="none">
+                <tabbox id="views" vflex="true" hflex="true" orient="bottom">
+                    <tabs>
+                        <tab id="canvasView" label="1. Canvas"/>
+                        <tab id="outlineView" label="2. Outline"/>
+                        <tab id="codeView" label="3. Code"/>
+                    </tabs>
+                    <tabpanels>
+                        <tabpanel>
+                            <panel id="canvas" border="normal" vflex="true" droppable="true">
+                                <panelchildren style="overflow:auto">
+                                    <label value="123"/>
+                                </panelchildren>
+                            </panel>
+                        </tabpanel>
+                        <tabpanel>
+                            <panel border="normal" vflex="true">
+                                <panelchildren style="overflow:auto">
+                                    <tree id="outline" vflex="true">
+                                        <treechildren/>
+                                    </tree>
+                                </panelchildren>
+                            </panel>
+                        </tabpanel>
+                        <tabpanel>
+                            <panel border="normal" vflex="true">
+                                <panelchildren style="overflow:auto">
+                                    <textbox id="code" multiline="true" vflex="true" hflex="true" value="123">
+                                        <attribute c:name="bind_">
+                                            <![CDATA[
+                                                function (a, b, c) {
+                                                    this.$bind_(a, b, c);
+                                                    var wgt = this;
+                                                    myCodeMirror = CodeMirror.fromTextArea(this.$n(),{extraKeys: {"Ctrl-Space": "autocomplete"}});
+                                                    myCodeMirror.on('blur', function () {
+                                                        var val = myCodeMirror.getValue();
+                                                        wgt.$n().value = val;
+                                                        wgt.fire('onChange', {value: val}, {toServer: true});
+                                                    });
+                                                }
+                                            ]]>
+                                        </attribute>
+                                        <attribute c:name="setValue">
+                                            <![CDATA[
+                                                function (a, b) {
+                                                    this.$setValue(a, b);
+                                                    if (myCodeMirror)
+                                                        myCodeMirror.setValue(a);
+                                                }
+                                            ]]>
+                                        </attribute>
+                                    </textbox>
+                                </panelchildren>
+                            </panel>
+                        </tabpanel>
+                    </tabpanels>
+                </tabbox>
+            </center>
+            <east width="20%" collapsible="true" splittable="true" border="none">
+                <vlayout vflex="true" apply="com.web4thejob.designer.PropertyEditorController">
+                    <bandbox id="treeNavigator" hflex="true" readonly="true">
+                        <bandpopup id="navigatorPopup">
+                            <tree id="navigatorTree" height="400px" width="100px" hflex="true"/>
+                        </bandpopup>
+                    </bandbox>
+                    <tabbox vflex="true" hflex="true">
+                        <tabs>
+                            <tab label="Properties"/>
+                            <tab label="Events"/>
+                        </tabs>
+                        <tabpanels>
+                            <tabpanel id="properties" style="overflow:auto"/>
+                            <tabpanel id="events" style="overflow:auto"/>
+                        </tabpanels>
+                    </tabbox>
+                </vlayout>
+            </east>
+        </borderlayout>
+    </window>
+</zk>

@@ -5,6 +5,7 @@ import org.zkoss.zk.ui.HtmlBasedComponent;
 import org.zkoss.zk.ui.event.*;
 import org.zkoss.zk.ui.select.SelectorComposer;
 import org.zkoss.zk.ui.select.annotation.Wire;
+import org.zkoss.zk.ui.util.Clients;
 import org.zkoss.zul.*;
 
 import java.util.Map;
@@ -13,7 +14,7 @@ import java.util.Map;
  * @author Veniamin Isaias
  * @since 1.0.0
  */
-public class FormDesigner extends SelectorComposer<Component> {
+public class FormDesignerController extends SelectorComposer<Component> {
     private static final String STYLE_FOCUSED = "focused";
     private static final String ATTRIB_DROPCLASS = "dropclass";
     private final MouseOverHandler MOUSE_OVER_HANDLER = new MouseOverHandler();
@@ -31,8 +32,8 @@ public class FormDesigner extends SelectorComposer<Component> {
         super.doAfterCompose(comp);
         comp.addEventListener(Events.ON_CTRL_KEY, CTRL_KEY_HANDLER);
         canvas.addEventListener(Events.ON_DROP, DROP_HANDLER);
-        canvas.addEventListener(Events.ON_MOUSE_OVER, MOUSE_OVER_HANDLER);
-        canvas.addEventListener(Events.ON_MOUSE_OUT, MOUSE_OUT_HANDLER);
+//        canvas.addEventListener(Events.ON_MOUSE_OVER, MOUSE_OVER_HANDLER);
+//        canvas.addEventListener(Events.ON_MOUSE_OUT, MOUSE_OUT_HANDLER);
         canvas.addEventListener(Events.ON_CLICK, MOUSE_CLICK_HANDLER);
 
         traverseChildren(comp, new ChildDelegate() {
@@ -43,17 +44,20 @@ public class FormDesigner extends SelectorComposer<Component> {
                 }
             }
         });
+
+
+
     }
 
 
     private void markSelected(Component comp) {
-        ((HtmlBasedComponent) comp).setSclass(STYLE_FOCUSED);
+        //((HtmlBasedComponent) comp).setSclass(STYLE_FOCUSED);
         EventQueues.lookup("myMessageQueue", EventQueues.SESSION, true)
                 .publish(new Event("onSelected", null, comp));
     }
 
     private void markAllUnselected() {
-        traverseChildren(FormDesigner.this.canvas, new ChildDelegate() {
+        traverseChildren(FormDesignerController.this.canvas, new ChildDelegate() {
             @Override
             public void onChild(Component child) {
                 markUnselected(child);
@@ -69,6 +73,7 @@ public class FormDesigner extends SelectorComposer<Component> {
 
         @Override
         public void onEvent(MouseEvent event) throws Exception {
+
             //onDragging event
             if (!designMode && event.getKeys() == 258) { //Ctrl
                 markAllUnselected();
@@ -124,8 +129,15 @@ public class FormDesigner extends SelectorComposer<Component> {
                 String dropclass = (String) event.getDragged().getAttribute(ATTRIB_DROPCLASS);
                 Class<?> clazz = Class.forName(dropclass);
                 comp = (Component) clazz.newInstance();
+
             } else {
                 comp = event.getDragged();
+            }
+
+
+            if (comp instanceof Tabbox) {
+                new Tabs().setParent(comp);
+                new Tabpanels().setParent(comp);
             }
 
             Component parent = event.getTarget();
@@ -137,11 +149,15 @@ public class FormDesigner extends SelectorComposer<Component> {
                         new Tabs().setParent(parent);
                     }
                     comp.setParent(((Tabbox) parent).getTabs());
+                    new Tabpanel().setParent(((Tabbox) parent).getTabpanels());
                 } else if (comp instanceof Tabpanel) {
                     if (((Tabbox) parent).getTabpanels() == null) {
                         new Tabpanels().setParent(parent);
                     }
                     comp.setParent(((Tabbox) parent).getTabpanels());
+
+                } else {
+                    comp.setParent(((Tabbox) parent).getSelectedPanel());
                 }
             } else
                 comp.setParent(event.getTarget());
@@ -156,7 +172,37 @@ public class FormDesigner extends SelectorComposer<Component> {
 
             trackComponent((HtmlBasedComponent) comp, event.getDragged().getAttribute("properties"));
             markAllUnselected();
-            markSelected(comp);
+//            markSelected(comp);
+
+
+            comp.addEventListener("onHighlight", new EventListener<Event>() {
+                @Override
+                public void onEvent(Event event) throws Exception {
+                    Clients.evalJavaScript("highlight('" + event.getTarget().getUuid() + "');");
+
+                    if (event.getTarget() instanceof Tabbox) {
+                        Tabbox comp = (Tabbox) event.getTarget();
+                        Clients.evalJavaScript("highlight('" + comp.getTabs().getUuid() + "');");
+                        Clients.evalJavaScript("highlight('" + comp.getTabpanels().getUuid() + "');");
+                    } else if (event.getTarget() instanceof Tab) {
+                        Tab comp = (Tab) event.getTarget();
+                        comp.setSelected(true);
+                        Clients.evalJavaScript("highlight('" + comp.getLinkedPanel().getUuid() + "');");
+                        Clients.evalJavaScript("highlight('" + comp.getLinkedPanel().getParent().getUuid() + "');");
+                    }
+
+                }
+            });
+            Events.echoEvent("onHighlight", comp, null);
+
+            comp.addEventListener("onDesignerChange", new EventListener<Event>() {
+
+                @Override
+                public void onEvent(Event event) throws Exception {
+                    ((HtmlBasedComponent)event.getTarget()).setWidth(((Object[])event.getData())[1].toString());
+                }
+            });
+
         }
     }
 
@@ -167,8 +213,8 @@ public class FormDesigner extends SelectorComposer<Component> {
         comp.setDraggable("true");
 
         comp.addEventListener(Events.ON_DROP, DROP_HANDLER);
-        comp.addEventListener(Events.ON_MOUSE_OVER, MOUSE_OVER_HANDLER);
-        comp.addEventListener(Events.ON_MOUSE_OUT, MOUSE_OUT_HANDLER);
+//        comp.addEventListener(Events.ON_MOUSE_OVER, MOUSE_OVER_HANDLER);
+//        comp.addEventListener(Events.ON_MOUSE_OUT, MOUSE_OUT_HANDLER);
         comp.addEventListener(Events.ON_CLICK, MOUSE_CLICK_HANDLER);
     }
 
@@ -180,6 +226,7 @@ public class FormDesigner extends SelectorComposer<Component> {
             designMode = false;
             markAllUnselected();
             markSelected(event.getTarget());
+
         }
     }
 

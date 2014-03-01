@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2474ac2a-8107-4384-be91-405b15123367" name="Default" comment="" />
+    <list default="true" id="2474ac2a-8107-4384-be91-405b15123367" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/edit_pencil.cur" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/CanvasTabController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/CodeTabController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/beta/FormDesignerController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_zkoss_zk_zk_7_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_zkoss_zk_zul_7_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_03.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xom_xom_1_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/OutlineTabController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/designer-beta.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/designer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/beta/designer.zul" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/designer2.zul" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/grid.zul" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/hbox.zul" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/label.zul" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/row.zul" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/tab.zul" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/tabbox.zul" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/textbox.zul" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/tooltip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/vbox.zul" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_jdk14_1_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Veniamin\Development\fd\.idea\libraries\Maven__org_zkoss_zk_zk_7_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Veniamin\Development\fd\.idea\libraries\Maven__org_zkoss_zk_zul_7_0_0.xml" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Veniamin\Development\fd\.idea\libraries\Maven__org_zkoss_common_zcommon_7_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_zkoss_common_zcommon_7_0_1.xml" />
+      <change type="MOVED" beforePath="C:\Users\Veniamin\Development\fd\.idea\libraries\Maven__org_zkoss_common_zel_7_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_zkoss_common_zel_7_0_1.xml" />
+      <change type="MOVED" beforePath="C:\Users\Veniamin\Development\fd\.idea\libraries\Maven__org_zkoss_common_zweb_7_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_zkoss_common_zweb_7_0_1.xml" />
+      <change type="MOVED" beforePath="C:\Users\Veniamin\Development\fd\.idea\libraries\Maven__org_zkoss_zk_zkbind_7_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_zkoss_zk_zkbind_7_0_1.xml" />
+      <change type="MOVED" beforePath="C:\Users\Veniamin\Development\fd\src\main\java\com\web4thejob\designer\FormDesigner.java" afterPath="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/FormDesignerController.java" />
+      <change type="MOVED" beforePath="C:\Users\Veniamin\Development\fd\src\main\java\com\web4thejob\designer\PropertyEditor.java" afterPath="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/PropertyEditorController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/designer.zul" afterPath="$PROJECT_DIR$/src/main/webapp/designer.zul" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fd.iml" afterPath="$PROJECT_DIR$/fd.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/textbox.properties" afterPath="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/textbox.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="zktest.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -116,6 +163,21 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/web4thejob/designer/beta/FormDesignerController.java" line="331" class="com.web4thejob.designer.beta.FormDesignerController" package="com.web4thejob.designer.beta">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -126,82 +188,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="designer-beta.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/designer-beta.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2669">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormDesignerController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/web4thejob/designer/beta/FormDesignerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="332" column="39" selection-start="11904" selection-end="11904" vertical-scroll-proportion="0.0" vertical-offset="4729" max-vertical-offset="6664">
+              <folding>
+                <element signature="e#12131#13045#0" expanded="true" />
+                <element signature="e#13034#13035#0" expanded="true" />
+                <element signature="e#13633#14181#0" expanded="true" />
+                <element signature="e#14170#14171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventProcessor.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.1/zk-7.0.1-sources.jar!/org/zkoss/zk/ui/impl/EventProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="139" column="0" selection-start="4105" selection-end="4105" vertical-scroll-proportion="0.37868482" vertical-offset="1567" max-vertical-offset="2584">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Element.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/xom/xom/1.2.5/xom-1.2.5-sources.jar!/nu/xom/Element.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="352" column="24" selection-start="10874" selection-end="10874" vertical-scroll-proportion="0.0" vertical-offset="5235" max-vertical-offset="31348">
+              <folding>
+                <element signature="e#0#60134#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#19531#19532#0" expanded="false" />
+                <element signature="e#19567#19568#0" expanded="false" />
+                <element signature="e#21984#21985#0" expanded="false" />
+                <element signature="e#22016#22017#0" expanded="false" />
+                <element signature="e#22634#22635#0" expanded="false" />
+                <element signature="e#22663#22664#0" expanded="false" />
+                <element signature="e#22933#22934#0" expanded="false" />
+                <element signature="e#22959#22960#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Elements.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/xom/xom/1.2.5/xom-1.2.5-sources.jar!/nu/xom/Elements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="1" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="1190">
+              <folding>
+                <element signature="e#0#2409#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="designer.zul" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/designer.zul">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/beta/designer.zul">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="52" selection-start="4982" selection-end="4982" vertical-scroll-proportion="0.0" vertical-offset="1418" max-vertical-offset="2329">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="18" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1819">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tab.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/tab.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="5" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="442">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tabpanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Tabpanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="13" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1683">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tabpanel.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/tabpanel.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="11" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="238">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="textbox.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/textbox.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="label.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/label.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="11" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="221">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basic.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/basic.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="1" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Label.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Label.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="13" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="3128">
+            <state line="12" column="0" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2839">
               <folding />
             </state>
           </provider>
@@ -224,19 +278,43 @@
         <option value="$PROJECT_DIR$/src/main/java/my/TestClass.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/zk.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.zul" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/textbox.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/DesignerUtils.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/native.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/tabbox.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/PropertyEditor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/FormDesigner.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/box.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/tab.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/tabpanel.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/basic.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/label.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/PropertyEditor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/TreeNavigator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/OutlineController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/CanvasController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/CodeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/designer.zul" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tooltip.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/textbox.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/designer2.zul" />
+        <option value="$PROJECT_DIR$/src/main/webapp/tooltip.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/designer.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/FormDesignerController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/designer3.zul" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/textbox.zul" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/label.zul" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/hbox.zul" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/tabbox.zul" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/tab.zul" />
+        <option value="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/beta/CanvasTabController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/vbox.zul" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/grid.zul" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/row.zul" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/test.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/designer-beta.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/codemirror/lib/codemirror.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/beta/designer.zul" />
+        <option value="$PROJECT_DIR$/src/main/java/com/web4thejob/designer/beta/FormDesignerController.java" />
       </list>
     </option>
   </component>
@@ -294,7 +372,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -333,6 +411,218 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zktest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zktest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zktest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codemirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zktest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codemirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zktest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zktest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zktest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zktest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -360,12 +650,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.web4thejob.designer.beta" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Documents and Settings\e36132\IdeaProjects\fd\src\main\resources\com\web4thejob\designer\beta" />
+      <recent name="C:\Documents and Settings\e36132\IdeaProjects\fd\src\main\webapp\img" />
+      <recent name="C:\Users\Veniamin\Development\fd\src\main\webapp" />
+      <recent name="C:\Documents and Settings\e36132\IdeaProjects\fd\src\main\webapp" />
       <recent name="C:\Users\Veniamin\Development\zktest\src\main\resources\com\web4thejob\designer\properties" />
-      <recent name="C:\Documents and Settings\e36132\IdeaProjects\zktest\src\main\resources\com\web4thejob\designer\properties" />
-      <recent name="C:\Documents and Settings\e36132\IdeaProjects\zktest\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Veniamin\Development\fd\src\main\webapp\beta" />
+      <recent name="C:\Documents and Settings\e36132\IdeaProjects\fd\src\main\webapp" />
       <recent name="C:\Documents and Settings\e36132\IdeaProjects\zktest\src\main\resources\com\web4thejob\designer\properties" />
     </key>
   </component>
@@ -596,28 +893,28 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47879463" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3482143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4107143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34263393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.105006106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.113018595" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2912088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3853211" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15995117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38512617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17769784" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17739628" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -655,344 +952,375 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Label.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/textbox.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="3128">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/common/zcommon/7.0.0/zcommon-7.0.0-sources.jar!/org/zkoss/xel/zel/XelELContext.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Button.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0" vertical-offset="379" max-vertical-offset="833" />
+        <state line="263" column="7" selection-start="8382" selection-end="8382" vertical-scroll-proportion="0.0" vertical-offset="4471" max-vertical-offset="6562" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/common/zel/7.0.0/zel-7.0.0-sources.jar!/org/zkoss/zel/impl/ValueExpressionImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Toolbarbutton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="0" selection-start="4702" selection-end="4702" vertical-scroll-proportion="0.0" vertical-offset="1280" max-vertical-offset="4063" />
+        <state line="85" column="0" selection-start="1969" selection-end="1969" vertical-scroll-proportion="0.0" vertical-offset="940" max-vertical-offset="1649" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/common/zel/7.0.0/zel-7.0.0-sources.jar!/org/zkoss/zel/impl/lang/ExpressionBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/tooltip.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="0" selection-start="7664" selection-end="7664" vertical-scroll-proportion="0.0" vertical-offset="2793" max-vertical-offset="3400" />
+        <state line="18" column="32" selection-start="577" selection-end="588" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="765" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/common/zel/7.0.0/zel-7.0.0-sources.jar!/org/zkoss/zel/impl/ExpressionFactoryImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Textbox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="2305" selection-end="2305" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1105" />
+        <state line="30" column="13" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="3145" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/common/zcommon/7.0.0/zcommon-7.0.0-sources.jar!/org/zkoss/xel/zel/ELXelExpression.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/HtmlBasedComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="1241" />
+        <state line="166" column="0" selection-start="5151" selection-end="5151" vertical-scroll-proportion="0.0" vertical-offset="2287" max-vertical-offset="11560" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/common/zcommon/7.0.0/zcommon-7.0.0-sources.jar!/org/zkoss/xel/zel/ELFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/web4thejob/designer/CanvasTabController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="884" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/common/zcommon/7.0.0/zcommon-7.0.0-sources.jar!/org/zkoss/xel/util/SimpleXelContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1054" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/xel/impl/SimpleEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.0" vertical-offset="515" max-vertical-offset="1921" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/xel/Evaluators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="932" column="16" selection-start="39932" selection-end="39932" vertical-scroll-proportion="0.0" vertical-offset="15250" max-vertical-offset="18819">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/metainfo/impl/ComponentDefinitionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="385" column="16" selection-start="11908" selection-end="11908" vertical-scroll-proportion="0.0" vertical-offset="5368" max-vertical-offset="8058">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/metainfo/ComponentDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="308" column="16" selection-start="11345" selection-end="11345" vertical-scroll-proportion="0.0" vertical-offset="4705" max-vertical-offset="6205" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/metainfo/AbstractEvalRef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="27" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/metainfo/LangEvalRef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="20" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/metainfo/Property.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="29" selection-start="4508" selection-end="4508" vertical-scroll-proportion="0.0" vertical-offset="3536" max-vertical-offset="6205" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.0.RELEASE/spring-core-4.0.0.RELEASE-sources.jar!/org/springframework/util/MethodInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="272" column="18" selection-start="8686" selection-end="8686" vertical-scroll-proportion="0.49236193" vertical-offset="3695" max-vertical-offset="5151" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.0.RELEASE/spring-core-4.0.0.RELEASE-sources.jar!/org/springframework/util/ClassUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1782" selection-end="1782" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="20434" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/metainfo/ComponentInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="721" column="0" selection-start="24561" selection-end="24561" vertical-scroll-proportion="0.0" vertical-offset="11148" max-vertical-offset="14212" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.0.RELEASE/spring-core-4.0.0.RELEASE-sources.jar!/org/springframework/util/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="493" column="25" selection-start="15652" selection-end="15652" vertical-scroll-proportion="0.0" vertical-offset="7765" max-vertical-offset="19618">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/event/KeyEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="21" selection-start="2524" selection-end="2524" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1598" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/event/MouseEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="1610" max-vertical-offset="2992">
+        <state line="14" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <folding>
-            <element signature="e#0#6127#0" expanded="false" />
             <element signature="imports" expanded="false" />
-            <element signature="e#4245#4246#0" expanded="false" />
-            <element signature="e#4264#4265#0" expanded="false" />
-            <element signature="e#5349#5350#0" expanded="false" />
-            <element signature="e#5365#5366#0" expanded="false" />
-            <element signature="e#5486#5487#0" expanded="false" />
-            <element signature="e#5502#5503#0" expanded="false" />
-            <element signature="e#5651#5652#0" expanded="false" />
-            <element signature="e#5669#5670#0" expanded="false" />
-            <element signature="e#5816#5817#0" expanded="false" />
-            <element signature="e#5834#5835#0" expanded="false" />
-            <element signature="e#6104#6105#0" expanded="false" />
-            <element signature="e#6123#6124#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Checkbox.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/designer2.zul">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="13" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="3927" />
+        <state line="41" column="0" selection-start="2052" selection-end="2052" vertical-scroll-proportion="0.0" vertical-offset="2083" max-vertical-offset="2839">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.0.RELEASE/spring-core-4.0.0.RELEASE-sources.jar!/org/springframework/util/ReflectionUtils.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/metainfo/PageDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="435" column="72" selection-start="16752" selection-end="16752" vertical-scroll-proportion="0.0" vertical-offset="6997" max-vertical-offset="11169" />
+        <state line="61" column="13" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.33207548" vertical-offset="96" max-vertical-offset="15997" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/event/Events.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Label.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="31" selection-start="2204" selection-end="2204" vertical-scroll-proportion="0.33286119" vertical-offset="513" max-vertical-offset="9299" />
+        <state line="29" column="13" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="2805" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.0.RELEASE/spring-core-4.0.0.RELEASE-sources.jar!/org/springframework/core/io/ClassPathResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/textbox.zul">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="11" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.7121588" vertical-offset="376" max-vertical-offset="3927">
+        <state line="0" column="77" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/label.zul">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/impl/EventProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="0" selection-start="4105" selection-end="4105" vertical-scroll-proportion="0.31578946" vertical-offset="1596" max-vertical-offset="2584" />
+        <state line="139" column="0" selection-start="4105" selection-end="4105" vertical-scroll-proportion="0.0" vertical-offset="1558" max-vertical-offset="2584" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/AbstractComponent.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.0.RELEASE/spring-core-4.0.0.RELEASE-sources.jar!/org/springframework/core/io/ClassPathResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="13" selection-start="3347" selection-end="3347" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="58293">
+        <state line="123" column="84" selection-start="4242" selection-end="4242" vertical-scroll-proportion="0.53908354" vertical-offset="1317" max-vertical-offset="3961">
+          <folding>
+            <element signature="e#4004#4005#0" expanded="false" />
+            <element signature="e#4027#4028#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/web4thejob/designer/PropertyEditorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="199" column="24" selection-start="7514" selection-end="7514" vertical-scroll-proportion="0.90943396" vertical-offset="2646" max-vertical-offset="3519">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/impl/XulElement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/web4thejob/designer/FormDesignerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="22" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="6868" />
+        <state line="227" column="44" selection-start="8477" selection-end="8477" vertical-scroll-proportion="0.0" vertical-offset="2513" max-vertical-offset="3859">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/HtmlBasedComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/hbox.zul">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="35" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11560">
+        <state line="0" column="71" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Tabbox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="526" column="25" selection-start="14307" selection-end="14313" vertical-scroll-proportion="0.0" vertical-offset="7862" max-vertical-offset="12257">
+        <state line="336" column="17" selection-start="9718" selection-end="9718" vertical-scroll-proportion="0.0" vertical-offset="4653" max-vertical-offset="12325" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Tabpanels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="13" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="799" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/AbstractComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1333" column="34" selection-start="44168" selection-end="44168" vertical-scroll-proportion="0.34136546" vertical-offset="20757" max-vertical-offset="58293">
           <folding>
-            <element signature="e#0#20610#0" expanded="false" />
+            <element signature="e#0#120551#0" expanded="false" />
             <element signature="imports" expanded="false" />
-            <element signature="e#5170#5200#0" expanded="false" />
-            <element signature="e#6535#6669#0" expanded="false" />
-            <element signature="e#6663#6664#0" expanded="false" />
-            <element signature="e#6852#6882#0" expanded="false" />
-            <element signature="e#9148#9178#0" expanded="false" />
-            <element signature="e#9481#9482#0" expanded="false" />
-            <element signature="e#9500#9501#0" expanded="false" />
-            <element signature="e#9621#9622#0" expanded="false" />
-            <element signature="e#9643#9644#0" expanded="false" />
-            <element signature="e#9737#9738#0" expanded="false" />
-            <element signature="e#9761#9762#0" expanded="false" />
-            <element signature="e#9889#9890#0" expanded="false" />
-            <element signature="e#9913#9914#0" expanded="false" />
-            <element signature="e#10396#10397#0" expanded="false" />
-            <element signature="e#10424#10425#0" expanded="false" />
-            <element signature="e#10977#10978#0" expanded="false" />
-            <element signature="e#11004#11005#0" expanded="false" />
-            <element signature="e#12418#12419#0" expanded="false" />
-            <element signature="e#12439#12440#0" expanded="false" />
-            <element signature="e#13733#13734#0" expanded="false" />
-            <element signature="e#13759#13760#0" expanded="false" />
+            <element signature="e#3724#3774#0" expanded="false" />
+            <element signature="e#12334#12335#0" expanded="false" />
+            <element signature="e#12353#12354#0" expanded="false" />
+            <element signature="e#17346#17347#0" expanded="false" />
+            <element signature="e#17363#17364#0" expanded="false" />
+            <element signature="e#22788#22789#0" expanded="false" />
+            <element signature="e#22807#22808#0" expanded="false" />
+            <element signature="e#22848#22849#0" expanded="false" />
+            <element signature="e#22867#22868#0" expanded="false" />
+            <element signature="e#31434#31435#0" expanded="false" />
+            <element signature="e#31455#31456#0" expanded="false" />
+            <element signature="e#45070#45071#0" expanded="false" />
+            <element signature="e#45108#45109#0" expanded="false" />
+            <element signature="e#71613#71645#0" expanded="false" />
+            <element signature="e#79289#79493#0" expanded="false" />
+            <element signature="e#79486#79487#0" expanded="false" />
+            <element signature="e#79653#79654#0" expanded="false" />
+            <element signature="e#79671#79672#0" expanded="false" />
+            <element signature="e#86326#86344#0" expanded="false" />
+            <element signature="e#88780#88810#0" expanded="false" />
+            <element signature="e#89542#89572#0" expanded="false" />
+            <element signature="e#95335#95365#0" expanded="false" />
+            <element signature="e#99139#99158#0" expanded="false" />
+            <element signature="e#115385#115404#0" expanded="false" />
+            <element signature="e#118309#118339#0" expanded="false" />
+            <element signature="e#119585#119753#0" expanded="false" />
+            <element signature="e#119749#119750#0" expanded="false" />
+            <element signature="e#120125#120126#0" expanded="false" />
+            <element signature="e#120148#120149#0" expanded="false" />
+            <element signature="e#120176#120177#0" expanded="false" />
+            <element signature="e#120198#120199#0" expanded="false" />
+            <element signature="e#120233#120234#0" expanded="false" />
+            <element signature="e#120256#120257#0" expanded="false" />
+            <element signature="e#120317#120318#0" expanded="false" />
+            <element signature="e#120342#120343#0" expanded="false" />
+            <element signature="e#120379#120380#0" expanded="false" />
+            <element signature="e#120403#120404#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/tabbox.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/common/zcommon/7.0.0/zcommon-7.0.0-sources.jar!/org/zkoss/lang/Classes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+        <state line="74" column="0" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.0" vertical-offset="521" max-vertical-offset="25075" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/scripting/bsh/BSHInterpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="0" selection-start="4071" selection-end="4071" vertical-scroll-proportion="0.0" vertical-offset="1240" max-vertical-offset="12393" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Tabs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="18" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.0" vertical-offset="325" max-vertical-offset="2346" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/tab.zul">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="47" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/web4thejob/designer/PropertyEditor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/Executions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="30" selection-start="3367" selection-end="3367" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="3570">
+        <state line="286" column="42" selection-start="11974" selection-end="11974" vertical-scroll-proportion="0.36897275" vertical-offset="4142" max-vertical-offset="16405">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/web4thejob/designer/FormDesigner.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/impl/AbstractExecution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="21" selection-start="5186" selection-end="5186" vertical-scroll-proportion="0.0" vertical-offset="1708" max-vertical-offset="3196">
+        <state line="317" column="22" selection-start="10941" selection-end="10941" vertical-scroll-proportion="0.3776908" vertical-offset="4210" max-vertical-offset="7633" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/Execution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="552" column="26" selection-start="21860" selection-end="21860" vertical-scroll-proportion="0.2620545" vertical-offset="8647" max-vertical-offset="20723" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/http/ExecutionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="395" column="26" selection-start="12687" selection-end="12687" vertical-scroll-proportion="0.3899371" vertical-offset="5356" max-vertical-offset="8857" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/sys/UiFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="253" column="26" selection-start="10309" selection-end="10309" vertical-scroll-proportion="0.6792453" vertical-offset="3467" max-vertical-offset="3944" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/impl/AbstractUiFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="38" selection-start="6316" selection-end="6316" vertical-scroll-proportion="0.6530612" vertical-offset="2145" max-vertical-offset="2635" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/metainfo/PageDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="48" selection-start="3263" selection-end="3263" vertical-scroll-proportion="0.33935744" vertical-offset="817" max-vertical-offset="3213" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/metainfo/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="26" selection-start="4358" selection-end="4358" vertical-scroll-proportion="-2.552209" vertical-offset="2546" max-vertical-offset="24344" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.0/zk-7.0.0-sources.jar!/org/zkoss/zk/ui/event/Events.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="61" selection-start="1222" selection-end="1234" vertical-scroll-proportion="0.33287483" vertical-offset="64" max-vertical-offset="9299">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Box.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="16" selection-start="8065" selection-end="8065" vertical-scroll-proportion="0.0" vertical-offset="3384" max-vertical-offset="5576" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/edit_pencil.cur">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Hbox.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/impl/XulElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="28" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="578" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/box.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+        <state line="24" column="91" selection-start="545" selection-end="545" vertical-scroll-proportion="0.071428575" vertical-offset="0" max-vertical-offset="6868">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.zul">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/designer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="685">
+        <state line="42" column="14" selection-start="772" selection-end="1147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="925" column="32" selection-start="29319" selection-end="29319" vertical-scroll-proportion="0.0" vertical-offset="13911" max-vertical-offset="41871" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/vbox.zul">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="509">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/jre/lib/jfxrt.jar!/javafx/scene/control/Tab.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/row.zul">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="0.19465649" vertical-offset="0" max-vertical-offset="2720" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Tab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="29" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="6953" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/impl/LabelImageElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="58" selection-start="1818" selection-end="1818" vertical-scroll-proportion="0.0" vertical-offset="467" max-vertical-offset="5950" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/impl/LabelElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="22" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/tab.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="5" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Tabpanel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/tabbox.zul">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="13" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="1360">
+        <state line="1" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.023383768" vertical-offset="0" max-vertical-offset="727">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/tabpanel.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/grid.zul">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="11" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/basic.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zul/7.0.0/zul-7.0.0-sources.jar!/org/zkoss/zul/Label.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="2805">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/textbox.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/properties/label.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="11" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+        <state line="2" column="51" selection-start="124" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/designer.zul">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="52" selection-start="4982" selection-end="4982" vertical-scroll-proportion="0.0" vertical-offset="1418" max-vertical-offset="2329">
+        <state line="55" column="60" selection-start="3157" selection-end="3157" vertical-scroll-proportion="1.1460674" vertical-offset="527" max-vertical-offset="2499">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/web4thejob/designer/beta/test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1819">
+        <state line="19" column="32" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1921">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/designer-beta.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2669">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/codemirror/lib/codemirror.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.26184833" vertical-offset="0" max-vertical-offset="4590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/xom/xom/1.2.5/xom-1.2.5-sources.jar!/nu/xom/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="352" column="24" selection-start="10874" selection-end="10874" vertical-scroll-proportion="0.0" vertical-offset="5235" max-vertical-offset="31348">
+          <folding>
+            <element signature="e#0#60134#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#19531#19532#0" expanded="false" />
+            <element signature="e#19567#19568#0" expanded="false" />
+            <element signature="e#21984#21985#0" expanded="false" />
+            <element signature="e#22016#22017#0" expanded="false" />
+            <element signature="e#22634#22635#0" expanded="false" />
+            <element signature="e#22663#22664#0" expanded="false" />
+            <element signature="e#22933#22934#0" expanded="false" />
+            <element signature="e#22959#22960#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/xom/xom/1.2.5/xom-1.2.5-sources.jar!/nu/xom/Elements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="1" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="1190">
+          <folding>
+            <element signature="e#0#2409#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/beta/designer.zul">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2839">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/web4thejob/designer/beta/FormDesignerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="332" column="39" selection-start="11904" selection-end="11904" vertical-scroll-proportion="0.0" vertical-offset="4729" max-vertical-offset="6664">
+          <folding>
+            <element signature="e#12131#13045#0" expanded="true" />
+            <element signature="e#13034#13035#0" expanded="true" />
+            <element signature="e#13633#14181#0" expanded="true" />
+            <element signature="e#14170#14171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/zkoss/zk/zk/7.0.1/zk-7.0.1-sources.jar!/org/zkoss/zk/ui/impl/EventProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="0" selection-start="4105" selection-end="4105" vertical-scroll-proportion="0.37868482" vertical-offset="1567" max-vertical-offset="2584">
           <folding />
         </state>
       </provider>

@@ -18,11 +18,9 @@ import java.util.*;
  * @author Veniamin Isaias
  * @since 1.0.0
  */
-public class PropertyEditor extends SelectorComposer<Component> {
+public class PropertyEditorController extends SelectorComposer<Component> {
     private final SaveProperties SAVE_CHANGES_HANDLER = new SaveProperties();
 
-    @Wire
-    private Bandbox selected;
     @Wire
     private Tabpanel properties;
 
@@ -37,7 +35,7 @@ public class PropertyEditor extends SelectorComposer<Component> {
                 new EventListener<Event>() {
                     public void onEvent(Event event) throws ClassNotFoundException, NoSuchMethodException,
                             InvocationTargetException, IllegalAccessException, IOException {
-                        PropertyEditor.this.comp = (Component) event.getData();
+                        PropertyEditorController.this.comp = (Component) event.getData();
                         renderProperties();
                     }
                 });
@@ -46,7 +44,6 @@ public class PropertyEditor extends SelectorComposer<Component> {
 
     private void renderProperties() throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException,
             InvocationTargetException, IOException {
-        selected.setValue(comp.getClass().getName() + " [" + comp.getUuid() + "]");
         properties.getChildren().clear();
 
         Map<String, Map<String, Map<String, String>>> propsMap = getDefinition(comp);

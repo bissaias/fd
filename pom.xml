@@ -17,7 +17,7 @@
 
 
     <properties>
-        <org.zkoss.version>7.0.0</org.zkoss.version>
+        <org.zkoss.version>7.0.1</org.zkoss.version>
         <org.springframework.version>4.0.0.RELEASE</org.springframework.version>
     </properties>
 
@@ -42,6 +42,12 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
             <version>${org.springframework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xom</groupId>
+            <artifactId>xom</artifactId>
+            <version>1.2.5</version>
         </dependency>
 
 

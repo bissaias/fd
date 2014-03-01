@@ -1,0 +1,16 @@
+<zk>
+
+<!--arg.parent=tabs    -->
+
+<tab label="Tab ${arg.parent.children.size()}" closable="true"/>
+
+<zscript>
+    <![CDATA[
+        Tabpanel tabpanel=new Tabpanel();
+        tabpanel.setParent(arg.get("parent").tabbox.tabpanels);
+        tabpanel.linkedTab.setSelected(true);
+    ]]>
+
+</zscript>
+
+</zk>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zk xsi:schemaLocation="http://www.zkoss.org/2005/zul http://www.zkoss.org/2005/zul.xsd" xmlns="http://www.zkoss.org/2005/zul" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <panel>
+        <panelchildren>
+            <tabbox>
+                <tabs>
+                    <tab/>
+                    <tab/>
+                    <tab/>
+                </tabs>
+                <tabpanels>
+                    <tabpanel/>
+                    <tabpanel/>
+                    <tabpanel/>
+                </tabpanels>
+            </tabbox>
+        </panelchildren>
+    </panel>
+</zk>
