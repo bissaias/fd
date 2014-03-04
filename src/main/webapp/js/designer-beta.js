@@ -8,9 +8,9 @@ var w4tjDesigner={
         this._templateUUID=zk(uuid).$();
 
         if (this._templateUUID){
-            $(this._canvas.$n()).addClass("design");
+            jq(this._canvas.$n()).addClass("design");
         } else {
-            $(this._canvas.$n()).removeClass("design");
+            jq(this._canvas.$n()).removeClass("design");
             zAu.send(new zk.Event(w4tjDesigner.canvas, "onClientTemplateSet", null));
         }
     },
@@ -31,17 +31,17 @@ var w4tjDesigner={
         this._showTooltip=v;
 
         //reset first
-        $("#" + this._canvas.uuid + " *").each(function() {
-            var $this = $(this);
+        jq("#" + this._canvas.uuid + " *").each(function() {
+            var $this = jq(this);
             if($this.data("uiTooltip")){
                $this.tooltip("destroy");
             }
         });
 
         if (v){
-            $("#" + this._canvas.uuid + " *").each(function () {
+            jq("#" + this._canvas.uuid + " *").each(function () {
                if (zk(this).$()) {
-                   $(this).tooltip({
+                   jq(this).tooltip({
                           items: "*",
                           track: true,
                           show: {delay: 1000},
@@ -65,24 +65,24 @@ var w4tjDesigner={
     set showTracking(v){
         this._showTracking=v;
 
-        $(this._canvas.$n()).undelegate("*","mousemove"); //reset
-        $(this._canvas.$n()).undelegate("*","mouseleave"); //reset
+        jq(this._canvas.$n()).undelegate("*","mousemove"); //reset
+        jq(this._canvas.$n()).undelegate("*","mouseleave"); //reset
 
         if (v){
-            $(this._canvas.$n()).delegate("*","mousemove",function(event) {
+            jq(this._canvas.$n()).delegate("*","mousemove",function(event) {
                 if (event.target==this){
                     var wgt=zk(this).$();
                     if (wgt){
                         //unhover others first
-                        $("#" + w4tjDesigner.canvas.uuid + " [class~=hovered]").removeClass("hovered");
-                        $(wgt.$n()).addClass("hovered");
+                        jq("#" + w4tjDesigner.canvas.uuid + " [class~=hovered]").removeClass("hovered");
+                        jq(wgt.$n()).addClass("hovered");
                     }
                 }
             });
 
-            $(this._canvas.$n()).delegate("*","mouseleave", function(event) {
+            jq(this._canvas.$n()).delegate("*","mouseleave", function(event) {
                 if (zk(this).$()){
-                   $(zk(this).$().$n()).removeClass("hovered");
+                   jq(zk(this).$().$n()).removeClass("hovered");
                 }
             });
         }
@@ -90,8 +90,8 @@ var w4tjDesigner={
 
     monitorClicks: function () {
         //left clicks
-       $(this._canvas.$n()).undelegate("*", "click"); //reset
-       $(this._canvas.$n()).delegate("*", "click", function (event) {
+       jq(this._canvas.$n()).undelegate("*", "click"); //reset
+       jq(this._canvas.$n()).delegate("*", "click", function (event) {
            var wgt = zk(this).$();
            if (wgt && w4tjDesigner.templateUUID) {  //design
                zAu.send(new zk.Event(w4tjDesigner.canvas, "onDesigneStart", {
@@ -100,16 +100,16 @@ var w4tjDesigner={
                }));
                event.stopPropagation();
            } else if (wgt) {  //select
-                if (event.target==this && !$(wgt.$n()).is(".selected")) {
+                if (event.target==this && !jq(wgt.$n()).is(".selected")) {
                     w4tjDesigner.select(wgt.$n());
                 }
            }
        });
 
        //right clicks
-       //$(this._canvas.$n()).bind("contextmenu", function(e) {return false;});
-       $(this._canvas.$n()).undelegate("*", "mousedown"); //reset
-       $(this._canvas.$n()).delegate("*", "mousedown", function (event) {
+       //jq(this._canvas.$n()).bind("contextmenu", function(e) {return false;});
+       jq(this._canvas.$n()).undelegate("*", "mousedown"); //reset
+       jq(this._canvas.$n()).delegate("*", "mousedown", function (event) {
            if (event.button == 2){
                var wgt=zk(this).$();
                if (wgt) {
@@ -125,8 +125,8 @@ var w4tjDesigner={
     },
 
     select: function(e){
-        $("#" + w4tjDesigner.canvas.uuid + " [class~=selected]").removeClass("selected");
-        $(e).addClass("selected");
+        jq("#" + w4tjDesigner.canvas.uuid + " [class~=selected]").removeClass("selected");
+        jq(e).addClass("selected");
         zAu.send(new zk.Event(w4tjDesigner.canvas, "onSelection",{target:zk(e).$().uuid}));
     }
 
@@ -135,17 +135,17 @@ var w4tjDesigner={
 // && !$this.has(".selected").length
 
 /*
-               $("#" + w4tjDesigner.canvas.uuid + " *").each(function () {
+               jq("#" + w4tjDesigner.canvas.uuid + " *").each(function () {
                    if (zk(this).$()) {
-                       if ($(this).is(".ui-resizable")) {
-                           $(this).resizable("destroy");
+                       if (jq(this).is(".ui-resizable")) {
+                           jq(this).resizable("destroy");
                        }
                    }
                });
 
                 //todo
                if (w.$instanceof(zul.tab.Tabbox)) {
-                   $(w.$n()).resizable({ handles: "se" });
+                   jq(w.$n()).resizable({ handles: "se" });
                    //event.stopPropagation();
                }
 */
